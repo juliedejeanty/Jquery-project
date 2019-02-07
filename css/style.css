@@ -1,0 +1,22 @@
+nav{
+    background: grey;
+    opacity: 0.5;
+    padding: 20px;
+}
+
+ul{
+    margin: 0;
+    display: flex;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    font-size: 20px;
+}
