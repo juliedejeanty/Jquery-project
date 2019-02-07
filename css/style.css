@@ -4,8 +4,8 @@ body{
 }
 
 nav{
-    background: grey;
-    opacity: 0.5;
+    background: black;
+    opacity: 0.7;
     padding: 20px;
 }
 
@@ -13,6 +13,7 @@ ul{
     margin: 0;
     display: flex;
     justify-content: space-evenly;
+    margin-left: 800px;
 }
 
 ul li{
@@ -25,6 +26,7 @@ li a{
     text-decoration: none;
     padding: 0;
     font-size: 20px;
+    font-weight: 100;
 }
 
 li a:hover{
@@ -32,6 +34,16 @@ li a:hover{
 }
 
 
+.logo {
+    height: 60px;
+    width: 60px;
+    background-image: url(../img/logo.png);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+    margin-top: -10px;
+}
 
 /*BLOCK*/
 .block{
@@ -45,4 +57,22 @@ li a:hover{
 .block:nth-child(odd){
     background-color: cornsilk ;
   
+}
+
+/*BLOCK*/
+#scrolltotop{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-radius: 50%;
+    background-color: grey;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    display: none;
 }
