@@ -10,9 +10,23 @@ $(window).on("scroll", function(){
     }
 
     if(positionY > 100){
-        $("nav").css("height","50px")
-        $("nav").css("height","50px")
+        $("nav").css("height","30px")
+        $(".logo").css("width","50px")
+        $(".logo").css("height","50px")
+        $(".logo").css("margin-top","2px")
     }
+
+    else if(positionY <100){
+        $("nav").css("height","80px")
+        $(".logo").css("width","60px")
+        $(".logo").css("height","60px")
+    }
+
+    if(positionY > 0){
+        $("nav").css("position","fixed")
+        $("nav").css("width","100%")
+    }
+
 })
 
 
