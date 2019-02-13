@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,15 @@
     <!--NORMALIZE-->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <!--FORMALIZE-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <!--NAVBAR-->
     <nav>
         <div class="logo"></div>
@@ -28,9 +31,66 @@
                 <a href="Contact">Contact</a>
             </li>
         </ul>
-    </nav>    
+    </nav>
 
-    <!--DIV-->
+
+    <!-- Conteneur principal -->
+    <div class="slider">
+
+        <!-- Slides avec images / numérotation et texte -->
+        <div class="mySlides fade">
+            <div class="numerotation">1 / 5</div>
+            <img src="img/zhanjiang-chen-1346242-unsplash.jpg">
+            <div class="texte">Océan Indien</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numerotation">2 / 5</div>
+            <img src="img/jannes-jacobs-1347251-unsplash.jpg" alt="">
+            <div class="texte">Italie</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numerotation">3 / 5</div>
+            <img src="img/patrick-brinksma-1346222-unsplash.jpg" alt="">
+            <div class="texte">Pyrénées</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numerotation">4 / 5</div>
+            <img src="img/eberhard-grossgasteiger-1346956-unsplash.jpg">
+            <div class="texte">Pays de Galles</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numerotation">5 / 5</div>
+            <img src="img/zoltan-tasi-1346503-unsplash.jpg">
+            <div class="texte">Lune</div>
+        </div>
+
+        <!-- Flèches avant/après -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+        <!-- Ronds de "pagination" Faire en sorte que le rond suivant ne s'active qu'au clic
+    Mes ronds ne s'affichent pas tous ... malgré mes tentatives de justify content, text align center... rien à y faire le rond de gauche reste la à me regarder mais ne veut pas bouger !! SNIFFFF -->
+    <div class="ronds">
+        <span class="rond active" onclick="currentSlide(1)"></span>
+        <span class="rond active" onclick="currentSlide(2)"></span>
+        <span class="rond active" onclick="currentSlide(3)"></span>
+        <span class="rond active" onclick="currentSlide(4)"></span>
+        <span class="rond active" onclick="currentSlide(5)"></span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
     <div class="block"></div>
     <div class="block"></div>
     <div class="block"></div>
@@ -39,17 +99,15 @@
 
     <!--FLECHE SCROLL-->
     <div id="scrolltotop">
-        <i class="fas fa-arrow-up"></i>    
+        <i class="fas fa-arrow-up"></i>
     </div>
 
 
 
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 
 </body>
-</html>
 
+</html>
