@@ -5,6 +5,7 @@ body{
     margin: 0;
 }
 
+
 nav{
     background:  slategrey;
     padding: 20px;
@@ -78,13 +79,12 @@ li a:hover{
 .slider {
     display: flex;
     justify-content: center;
-    position: absolute;
     margin: auto;
     width: 500px;
     height: 500px;
     z-index: 0;
-    top: 200px;
-    left: 460px;
+    top: 150px;
+    position: relative;
 }
 
 /* Hide the images by default */
@@ -134,8 +134,8 @@ img{
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 0px;
-  width: 95%;
+  bottom: -4px;
+  width: 33%;
   text-align: center;
   background-color: black; 
   opacity: 0.5;
@@ -189,6 +189,8 @@ img{
 }
 
 
+
+
 /*PORTFOLIO*/
   #portfolio {
       margin: 1rem 0;
@@ -201,7 +203,6 @@ img{
       -webkit-column-width: 33.33333333333333%;
       -moz-column-width: 33.33333333333333%;
       column-width: 33.33333333333333%;
-      margin-top: 900px;
       position: absolute;
       left: 100px;
       right: 100px;    }
@@ -280,4 +281,9 @@ img{
     padding: 0;
   }
   
-  
+  /*MAP*/
+.map{
+
+   
+
+}
