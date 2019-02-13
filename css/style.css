@@ -83,7 +83,7 @@ li a:hover{
     width: 500px;
     height: 500px;
     z-index: 0;
-    top: 150px;
+    top: 100px;
     position: relative;
 }
 
@@ -134,8 +134,8 @@ img{
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: -4px;
-  width: 33%;
+  bottom: 0px;
+  width: 95%;
   text-align: center;
   background-color: black; 
   opacity: 0.5;
@@ -203,9 +203,10 @@ img{
       -webkit-column-width: 33.33333333333333%;
       -moz-column-width: 33.33333333333333%;
       column-width: 33.33333333333333%;
-      position: absolute;
-      left: 100px;
-      right: 100px;    }
+      margin-top: 300px;
+      margin-left: 100px;
+      margin-right: 100px;  
+    }
 
   .tile { 
       -webkit-transform: scale(0);
@@ -283,7 +284,8 @@ img{
   
   /*MAP*/
 .map{
-
+    display: flex;
+    justify-content: center;
    
 
 }
