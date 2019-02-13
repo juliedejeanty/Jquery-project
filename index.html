@@ -40,32 +40,32 @@
         <!-- Slides avec images / numérotation et texte -->
         <div class="mySlides fade">
             <div class="numerotation">1 / 5</div>
-            <img src="img/zhanjiang-chen-1346242-unsplash.jpg">
-            <div class="texte">Océan Indien</div>
+            <img src="img/1.jpg">
+            <div class="texte">Indonésie</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numerotation">2 / 5</div>
-            <img src="img/jannes-jacobs-1347251-unsplash.jpg" alt="">
-            <div class="texte">Italie</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numerotation">3 / 5</div>
-            <img src="img/patrick-brinksma-1346222-unsplash.jpg" alt="">
+            <img src="img/2.jpg" alt="">
             <div class="texte">Pyrénées</div>
         </div>
 
         <div class="mySlides fade">
+            <div class="numerotation">3 / 5</div>
+            <img src="img/3.jpg" alt="">
+            <div class="texte">Bali</div>
+        </div>
+
+        <div class="mySlides fade">
             <div class="numerotation">4 / 5</div>
-            <img src="img/eberhard-grossgasteiger-1346956-unsplash.jpg">
-            <div class="texte">Pays de Galles</div>
+            <img src="img/7.jpg">
+            <div class="texte">Méduse</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numerotation">5 / 5</div>
-            <img src="img/zoltan-tasi-1346503-unsplash.jpg">
-            <div class="texte">Lune</div>
+            <img src="img/9.jpg">
+            <div class="texte">Italie</div>
         </div>
 
         <!-- Flèches avant/après -->
@@ -75,26 +75,70 @@
 
         <!-- Ronds de "pagination" Faire en sorte que le rond suivant ne s'active qu'au clic
     Mes ronds ne s'affichent pas tous ... malgré mes tentatives de justify content, text align center... rien à y faire le rond de gauche reste la à me regarder mais ne veut pas bouger !! SNIFFFF -->
-    <div class="ronds">
-        <span class="rond active" onclick="currentSlide(1)"></span>
-        <span class="rond active" onclick="currentSlide(2)"></span>
-        <span class="rond active" onclick="currentSlide(3)"></span>
-        <span class="rond active" onclick="currentSlide(4)"></span>
-        <span class="rond active" onclick="currentSlide(5)"></span>
+        <div class="ronds">
+            <span class="rond active" onclick="currentSlide(1)"></span>
+            <span class="rond active" onclick="currentSlide(2)"></span>
+            <span class="rond active" onclick="currentSlide(3)"></span>
+            <span class="rond active" onclick="currentSlide(4)"></span>
+            <span class="rond active" onclick="currentSlide(5)"></span>
+        </div>
     </div>
-</div>
 
 
 
+    <!--PORTFOLIO-->
 
+    <div class="toolbar mb2 mt2">
+        <button class="btn fil-cat" href="" data-rel="all">All</button>
+        <button class="btn fil-cat" data-rel="web">Websites</button>
+        <button class="btn fil-cat" data-rel="flyers">Flyers</button>
+        <button class="btn fil-cat" data-rel="bcards">Business Cards</button>
+    </div>
 
+    <div style="clear:both;"></div>
+    <div id="portfolio">
+        <div class="tile scale-anm web all">
+            <img src="img/11.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm bcards all">
+            <img src="img/8.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm web all">
+            <img src="img/6.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm web all">
+            <img src="img/10.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm flyers all">
+            <img src="img/4.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm bcards all">
+            <img src="img/5.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm flyers all">
+            <img src="img/12.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm flyers all">
+            <img src="img/13.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm web all">
+            <img src="img/14.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm flyers all">
+            <img src="img/15.jpg" alt="" />
+        </div>
+        <div class="tile scale-anm web all">
+            <img src="img/16.jpg"
+                alt="" />
+        </div>
+        <div class="tile scale-anm bcards all">
+            <img src="img/17.jpg" alt="" />
+ 
+    </div>
 
+    <div style="clear:both;"></div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
 
 
     <!--FLECHE SCROLL-->
@@ -103,7 +147,12 @@
     </div>
 
 
+    
+    <!--MAP-->
+    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.5643770098686219%2C44.84183115969071%2C-0.5621239542961122%2C44.84305592948337&amp;layer=mapnik&amp;marker=44.84244296838203%2C-0.5632516241166741" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=44.84244&amp;mlon=-0.56325#map=19/44.84244/-0.56325">Afficher une carte plus grande</a></small>
 
+
+    <!--SCRIPT JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
