@@ -13,17 +13,22 @@ $(window).on("scroll", function () {
         $("nav").css("height", "30px")
         $(".logo").css("width", "50px")
         $(".logo").css("height", "50px")
-        $(".logo").css("margin-top", "2px")
     }
 
-    else if (positionY < 100) {
+    else if (positionY <100) {
         $("nav").css("height", "80px")
         $(".logo").css("width", "60px")
         $(".logo").css("height", "60px")
+        $("").css("height", "60px")
     }
 
-    if (positionY > 0) {
+    if (positionY > 5) {
         $("nav").css("position", "fixed")
+        $("nav").css("width", "100%")
+    }
+
+    if (positionY < 5) {
+        $("nav").css("position", "relative")
         $("nav").css("width", "100%")
     }
 
