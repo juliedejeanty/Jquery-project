@@ -2,10 +2,10 @@ $(window).on("scroll", function () {
     let positionY = $(this).scrollTop();
     console.log(positionY);
 
-    if (positionY > 296) {
+    if (positionY > 496) {
         $("#scrolltotop").css("opacity", 1);
     }
-    else if (positionY < 296) {
+    else if (positionY < 496) {
         $("#scrolltotop").css("opacity", 0);
     }
 
